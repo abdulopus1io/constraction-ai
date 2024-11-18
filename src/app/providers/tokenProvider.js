@@ -1,7 +1,7 @@
 "use client"
 import { createContext, useContext, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import jwtDecode from 'jwt-decode';
+import { jwtDecode } from "jwt-decode";
 // Create a context for the token
 const TokenContext = createContext();
 

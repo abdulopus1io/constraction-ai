@@ -56,7 +56,7 @@ export const postRequest = async (endpoint, body) => {
     
     return await response.json(); // Parse and return the JSON response
   } catch (error) {
-    console.error("POST Request Error:", error);
+    // console.error("POST Request Error:", error);
     throw error; // Propagate the error
   }
 };

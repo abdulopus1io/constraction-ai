@@ -34,4 +34,7 @@ if (process.env.NODE_ENV === "development") {
   });
 }
 
+// Add the named export for connectMongoDB
+export const connectMongoDB = () => clientPromise;
+
 export default clientPromise;
